@@ -29,6 +29,7 @@ In order to authenticate against Google's APIs in a stateless way, we need to pr
 
 1. Visit the Google API developer console and `set up a Service Account <https://console.developers.google.com/iam-admin/serviceaccounts>`_ for your organization. Use the menu to create keys and download the resulting JSON to your computer.
 2. From that file, extract the ``client_email`` and ``private_key`` fields. You'll want to set these up as environment variables (locally for testing, or in the Lambda configuration later) named ``GOOGLE_JWT_EMAIL`` and ``GOOGLE_JWT_KEY``, respectively.
+3. If the keys are good and the script can see the environment variables, you should be able to perform a test run locally via ``node index.js --sheet="SHEET_ID" --slug="TEST_SLUG"``. It may still fail on the S3 publish if you don't have those access IDs set up already.
 
 Lambda setup
 ------------
