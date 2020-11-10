@@ -1,4 +1,4 @@
-Herman Hollerith developed the punch cards used to tabulate the 1890 census, reducing the processing time by two years. His Tabulating Machine Company was later merged with four other firms to kickstart the modern information age. He did not live to see the resulting company, IBM, provide assistance to the Third Reich.
+Herman Hollerith developed the punch cards used to tabulate the 1890 census, reducing the processing time by two years. His Tabulating Machine Company was later merged with four other firms to form IBM and kickstart the modern information age.
 
 This project allows users to deploy Google Sheets to a JSON file on Amazon S3 from an add-on menu, by leveraging an AWS Lambda function to perform the transfer. The data can then be loaded asynchronously by visualizations or data graphics, allowing updates without requiring a News Apps team member to redeploy the entire graphic.
 
